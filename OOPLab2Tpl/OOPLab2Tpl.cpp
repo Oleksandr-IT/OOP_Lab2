@@ -1,11 +1,7 @@
-﻿// OOPLab2Tpl.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
-#include <iostream>
+﻿#include <iostream>
 using namespace std;
 #include "Tasks.h"
 #include "Examples.h"
-
 
 /// @brief 
 /// @return 
@@ -35,4 +31,3 @@ int main()
 
     return 0;
 }
-

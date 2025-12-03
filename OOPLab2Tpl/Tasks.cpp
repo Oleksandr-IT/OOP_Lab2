@@ -40,5 +40,3 @@ void task4()
     cout << " Data encryption using structures with bit fields \n";
 
 }
-
-
