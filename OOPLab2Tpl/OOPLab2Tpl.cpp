@@ -5,7 +5,7 @@ using namespace std;
 
 /// @brief 
 /// @return 
-int main()
+int main1()
 {
     cout << "OOP. Template for laboratory work #2.\n";
 

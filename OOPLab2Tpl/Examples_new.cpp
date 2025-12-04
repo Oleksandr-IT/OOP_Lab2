@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 #include <string>
 #include <bitset>
 #include <clocale>
@@ -39,7 +39,6 @@ void Examples()
 void Example1()
 {
 	int a, b, c, d, x, y;
-	cout << "\nTask 2.1: Calculate expression using bitwise operations\n";
 	cout << "x = b + (b<<5) + (((d<<4)-d+(a<<3)+(a<<2))>>9) - (c+(c<<6)) + (d<<1) + (d<<3) + (d<<2)\n";
 	cout << "Enter a b c d: ";
 	cin >> a >> b >> c >> d;
@@ -78,8 +77,7 @@ void Example2()
 {
 	char S[65];
 	TextCode Rez[64];
-	cout << "\nTask 2.2: Encode text with bit-field structure\n";
-	cout << "Enter string (max 64 characters): ";
+	cout << "Введіть рядок: ";
 	cin.getline(S, 64);
 	
 	int n = strlen(S);
@@ -129,7 +127,6 @@ int calculateParity(uint16_t value)
 void Example3()
 {
 	string text;
-	cout << "\nTask 2.3: Encode text with union and parity bits\n";
 	cout << "Enter string (max 128 characters): ";
 	getline(cin, text);
 
@@ -178,7 +175,6 @@ void Example4()
 {
 	string text;
 	int shift;
-	cout << "\nTask 2.4: Encrypt string using cyclic left shift\n";
 	cout << "Enter string: ";
 	getline(cin, text);
 	cout << "Enter shift amount (0-7): ";
